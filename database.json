@@ -1,0 +1,77 @@
+{
+  "animals": [
+    {
+      "id": "1",
+      "name": "Pimposo",
+      "age": 7,
+      "type": "gato",
+      "owners": [
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sonic",
+      "age": 3,
+      "type": "cachorro",
+      "owners": [
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Harry",
+      "age": 14,
+      "type": "cachorro",
+      "owners": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Pink",
+      "age": 7,
+      "type": "rato",
+      "owners": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "algo",
+      "age": "9",
+      "type": "desconhecido"
+    }
+  ],
+  "owners": [
+    {
+      "id": "1",
+      "name": "Guilherme",
+      "phone": "15987654321",
+      "animals": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Juliana",
+      "phone": "15123456789",
+      "animals": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Rose",
+      "phone": "15988764321",
+      "animals": [
+        "3",
+        "4"
+      ]
+    }
+  ]
+}
